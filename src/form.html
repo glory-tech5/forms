@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Tailwind Form</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+    
+</head>
+<body class="bg-gray-100 h-full">
+
+    <div class="w-96 bg-white mx-auto mt-10 p-6 rounded">
+
+        <h1 class="text-2xl font-medium text-center mb-5" font-family: 'Arial', sans-serif; >
+            Login Form
+        </h1>
+
+        <form>
+
+            <label class="text-center text-xs">Name</label>
+            <input
+                type="text"
+                placeholder="Enter your name"
+                class="w-full border p-2 mb-4">
+
+            <label>Email</label>
+            <input
+                type="email"
+                placeholder="Enter your email"
+                class="w-full border p-2 mb-4">
+
+            <label>Password</label>
+            <input
+                type="tel"
+                placeholder="Enter your password"
+                class="w-full border p-2 mb-4">
+
+            <label>Gender</label>
+            <select class="w-full border p-2 mb-4">
+                <option>Select Gender</option>
+                <option>Male</option>
+                <option>Female</option>
+            </select>
+
+            
+          
+            <button
+                class="bg-blue-600 text-white p-2 rounded-full mt-6
+                 py-4 px-6 hover:bg-pink-700 
+                transition duration-300 justify-center items-center
+                text-center 
+                flex w-100px  text-xl">
+                Submit
+            </button>
+
+        </form>
+
+    </div>
+ 
+    
+</body>
+</html>
